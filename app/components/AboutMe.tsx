@@ -3,10 +3,10 @@ import React from 'react'
 
 export default function AboutMe() {
     return (
-        <div className=' mt-[-3rem] bg-black pb-[3rem]'>
+        <div className=' mt-[-4rem] bg-black pb-[3rem]'>
             <div className=' w-[80%] pt-[5rem] sm:pt-[7rem] md:peer-data-[10rem] mx-auto grid items-center grid-cols-1 lg:grid-cols-2 gap-[2rem]'>
                 <div>
-                    <p className=' text-white text-[17px] opacity-70'> About me </p>
+                    <p className=' text-white text-[17px] opacity-75'> About me </p>
                     <h1 className=' mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] text-white text-[27px] md:text-[30px]
                                      lg:text-[38px] xl:text-[45px]'>
                         Professional  <span className=' text-yellow-400'> Website </span> for your bussiness
@@ -44,15 +44,15 @@ export default function AboutMe() {
                             <p className=' text-[20px] text-white font-600'>years experience</p>
                         </div>
                         <div className=' p-6 text-center bg-yellow-500'>
-                            <p className=' text-[50px] text-white font-semibold'> 20+</p>
+                            <p className=' text-[50px] text-white font-semibold'> 30+</p>
                             <p className=' text-[20px] text-white font-600'> Happy Clients</p>
                         </div>
                         <div className=' p-6 text-center bg-yellow-500'>
-                            <p className=' text-[50px] text-white font-semibold'> 50+</p>
+                            <p className=' text-[50px] text-white font-semibold'> 30+</p>
                             <p className=' text-[20px] text-white font-600'> Projects Done </p>
                         </div>
                         <div className=' p-6 text-center bg-yellow-500'>
-                            <p className=' text-[50px] text-white font-semibold'> 2+</p>
+                            <p className=' text-[50px] text-white font-semibold'> 3+</p>
                             <p className=' text-[20px] text-white font-600'> Awards Win </p>
                         </div>
 

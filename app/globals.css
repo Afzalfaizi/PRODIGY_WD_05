@@ -15,4 +15,31 @@
         background-position: center;
         clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
     }
+    .heading__mini {
+        @apply text-white text-[17px] opacity-75
+    }
+    .heading__primary {
+        @apply mt-[0.6rem] p-2 sm:p-0 leading-[3.5rem] text-white text-[27px] md:text-[30px]
+        lg:text-[38px] xl:text-[45px]
+    }
+    .custom__services::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, #323232 0, #3f3f3f 40%, #1c1c1c 150%,)
+         linear-gradient(to top, rgba(0,8,255,0.4)0, rgba(70,14,255,0.25)200%);
+        background-blend-mode: multiply;
+        clip-path: circle(50px, at 95% 4%);
+        border-radius: 0.5rem;
+        transition: all 0.8s;
+    }
+    .custom__services:hover::before{
+        clip-path: circle(1000px at 95% 4%);
+        z-index:  -1000;
+}
 }
