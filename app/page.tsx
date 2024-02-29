@@ -3,6 +3,7 @@ import { useState } from "react"
 import NavMobile from "./components/NavMobile"
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+import AboutMe from "./components/AboutMe";
 
 export default function homePage() {
   const [showNav, setShowNav] = useState(false);
@@ -13,6 +14,7 @@ export default function homePage() {
       <NavMobile showNav = {showNav} closeNav={closeNavHandler}/>
       <Nav openNav={ShowNavHandler}/>
       <Hero />
+      <AboutMe />
       </div>
   )
 }
