@@ -5,7 +5,14 @@
 
 @layer components {
     .nav__link {
-         @apply relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px]
-         after:bg-yellow-400 text-white after:w-full after:scale-x-0 after:hover:scale-100 after:transition-all duration-200 after:origin-right
+        @apply relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 text-white after:w-full after:scale-x-0 after:hover:scale-100 after:transition-all duration-200 after:origin-right
+    }
+
+    .custom-bg {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.811)), url("/images/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
     }
 }
