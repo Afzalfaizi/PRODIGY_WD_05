@@ -14,11 +14,10 @@ const iconMapping ={
     "05": RocketLaunchIcon,
     "06": BugAntIcon,
     
-}
-
-export default function ServicesCard({title, num}:props) { 
+};
+export default function ServicesCard({num,title}:props) { 
     const IconComponent =
-    (iconMapping as Record<string, React.ElementType>) [num] || CommandLineIcon ;
+    (iconMapping as Record<string, React.ElementType>)[num] || CommandLineIcon ;
   return (
     <div className=' bg-black custom__services z-[100] relative transform rounded-2xl text-center p-6
     shadow-md'>
