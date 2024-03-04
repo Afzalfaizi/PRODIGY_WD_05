@@ -21,6 +21,7 @@ export default function homePage() {
       {/* <Services /> */}
       <Skills />
       <Projects />
+      
     </div>
   )
 }
