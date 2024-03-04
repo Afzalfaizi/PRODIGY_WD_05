@@ -32,7 +32,7 @@ export default function Nav({ openNav }: Props) {
                     <li className="nav__link"><Link href={'/'}>Home</Link></li>
                     <li className="nav__link"><Link href={'/about'}>About</Link></li>
                     <li className="nav__link"><Link href={'/services'}>Services</Link></li>
-                    <li className="nav__link"><Link href={'/blog'}>Blog</Link></li>
+                    <li className="nav__link"><Link href={'/projects'}>Projects</Link></li>
                     <li className="nav__link"><Link href={'/contact'}>Contact</Link></li>
                 </ul>
                 <Bars3CenterLeftIcon 
