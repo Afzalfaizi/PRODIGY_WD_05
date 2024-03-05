@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
 
+
 export default function homePage() {
   const [showNav, setShowNav] = useState(false);
   const ShowNavHandler = () => setShowNav(true);

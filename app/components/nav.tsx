@@ -19,8 +19,8 @@ export default function Nav({ openNav }: Props) {
         }
         window.addEventListener('scroll', handleScroll)
         return () => window.removeEventListener('scroll', handleScroll)
-    }, []) 
-    const stickyStyle = navSticky? 'bg-[#2124] shadow-gray-900 shadow-sm':''
+    }, [])
+    const stickyStyle = navSticky ? 'bg-[#2124] shadow-gray-900 shadow-sm' : ''
     return (
         <div className={`fixed w-[100%] ${stickyStyle} z-[1000] transition-all duration-300 bg-gray-800`}>
             <div className=' flex items-center h-[12vh] justify-between w-[80%] mx-auto'>
@@ -30,14 +30,14 @@ export default function Nav({ openNav }: Props) {
                 </div>
                 <ul className=' md:flex hidden items-center space-x-10'>
                     <li className="nav__link"><Link href={'/'}>Home</Link></li>
-                    <li className="nav__link"><Link href={'/about'}>About</Link></li>
                     <li className="nav__link"><Link href={'/services'}>Services</Link></li>
                     <li className="nav__link"><Link href={'/projects'}>Projects</Link></li>
+                    <li className="nav__link"><Link href={'/price'}>Prices</Link></li>
                     <li className="nav__link"><Link href={'/contact'}>Contact</Link></li>
                 </ul>
-                <Bars3CenterLeftIcon 
-                onClick={openNav} 
-                className=" w-[2.3rem] md:hidden h-[2.3rem] text-white rotate-180" />
+                <Bars3CenterLeftIcon
+                    onClick={openNav}
+                    className=" w-[2.3rem] md:hidden h-[2.3rem] text-white rotate-180" />
             </div>
         </div>
     )

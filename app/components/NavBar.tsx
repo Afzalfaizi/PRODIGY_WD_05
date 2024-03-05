@@ -11,9 +11,9 @@ const NavBar = () => {
         </div>
         <ul className=' md:flex hidden items-center space-x-10'>
             <li className="nav__link"><Link href={'/'}>Home</Link></li>
-            <li className="nav__link"><Link href={'/about'}>About</Link></li>
             <li className="nav__link"><Link href={'/services'}>Services</Link></li>
             <li className="nav__link"><Link href={'/projects'}>Projects</Link></li>
+            <li className="nav__link"><Link href={'/price'}>Prices</Link></li>
             <li className="nav__link"><Link href={'/contact'}>Contact</Link></li>
         </ul>
     </div>
