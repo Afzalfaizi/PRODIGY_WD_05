@@ -1,6 +1,5 @@
 
-import ProjectCard from '../Helper/ProjectCard'
-
+import ProjectCard from "../Helper/ProjectCard/ProjectCard"
 const Projects = () => {
   return (
     <div className=' pt-[8rem] pb-[3rem] bg-gray-900'>

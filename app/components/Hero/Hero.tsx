@@ -1,6 +1,5 @@
 import React from 'react'
-import TypeWriterEffect from '../Helper/TypeWriterEffect'
-
+import TypeWriterEffect from '@/app/Helper/TypeWritterEffect/TypeWritterEffect'
 export default function Hero() {
     return (
         <div className=" w-[100vw] pt-[4vh] md:pt-[12vh] h-[85vh] md:h-[100vh] custom-bg">

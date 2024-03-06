@@ -1,6 +1,5 @@
 import React from 'react'
-import SkillCard from '../Helper/SkillCard'
-
+import SkillCard from '@/app/Helper/SkillCard/SkillCard'
 export default function Skills() {
   return (
     <div className=' pt-[5rem] pb-[3rem] bg-black'>

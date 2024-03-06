@@ -1,7 +1,6 @@
 
 import React from 'react'
-import PriceCard from '../Helper/PriceCard'
-import Hero from '../components/Hero'
+import PriceCard from '../Helper/PriceCard/PriceCard';
 
 const Price = () => {
     return (

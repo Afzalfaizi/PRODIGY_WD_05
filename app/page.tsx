@@ -1,11 +1,10 @@
 "use client"
 import { useState } from "react"
-import NavMobile from "./components/NavMobile"
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
+import NavMobile from "./components/NavMobile/NavMobile";
+import Nav from "./components/Nav/Nav";
+import Hero from "./components/Hero/Hero";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Services from "./components/Services";
-import Skills from "./components/Skills";
+import Skills from "./components/Skills/Skills";
 
 
 export default function homePage() {
@@ -18,9 +17,7 @@ export default function homePage() {
       <Nav openNav={ShowNavHandler} />
       <Hero />
       <AboutMe />
-      {/* <Services /> */}
       <Skills />
-      
     </div>
   )
 }
