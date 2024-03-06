@@ -4,7 +4,7 @@ import { EnvelopeIcon, MapIcon, PhoneIcon } from '@heroicons/react/16/solid'
 
 const Footer = () => {
     return (
-        <div className=' pt-[5rem] pb-[5rem] bg-black'>
+        <div className=' pt-[3rem] pb-[2rem] bg-black'>
             <div className=' w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] border-b-[1.4px]
          pb-5 border-gray-600 border-opacity-40'>
                 <div>
@@ -45,7 +45,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className=' mt-[2rem] w-[80%] mx-auto text-white opacity-70'>
+            <div className=' mt-[1.4rem] w-[80%] mx-auto text-white opacity-70'>
                 &#169; Copyright {new Date().getFullYear()} | Developed by Muhammad Afzal <br />
                 This website is built with NextJS and TailwindCSS.<br />
                 Check out the source code on

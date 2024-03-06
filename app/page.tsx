@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
 import ContactUs from "./components/ContactUs/ContactUs";
 import MyServices from "./components/MyServices/MyService";
+import MyProjects from "./components/MyProjects/MyProjects";
 
 
 export default function homePage() {
@@ -21,6 +22,7 @@ export default function homePage() {
       <AboutMe />
       <MyServices />
       <Skills />
+      <MyProjects />
       <ContactUs />
     </div>
   )
