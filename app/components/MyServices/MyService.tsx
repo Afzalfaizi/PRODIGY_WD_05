@@ -1,8 +1,8 @@
 import React from 'react'
-import ServicesCard from '../Helper/ServicesCard/ServicesCard'
-export default function Services() {
+import ServicesCard from '@/app/Helper/ServicesCard/ServicesCard'
+export default function MyServices() {
     return (
-        <div className=' pt-[8rem] pb-[3rem] bg-[#0b0c13]'>
+        <div className=' pt-[5rem] pb-[3rem] bg-[#0b0c13]'>
             <div className=' text-center'>
                 <p className=' heading__mini'> Popular Services </p>
                 <h1 className=' heading__primary'>

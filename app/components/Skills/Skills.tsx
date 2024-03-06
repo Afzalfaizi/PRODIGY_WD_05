@@ -2,7 +2,7 @@ import React from 'react'
 import SkillCard from '@/app/Helper/SkillCard/SkillCard'
 export default function Skills() {
   return (
-    <div className=' pt-[5rem] pb-[3rem] bg-black'>
+    <div className=' pt-[2rem] pb-[2rem] bg-gray-700'>
       <div className=' grid w-[80%] mx-auto grid-cols-1 lg:grid-cols-7 gap-[2rem] items-center'>
         <div className=' col-span-3'>
           <p className=' heading__mini'>My Skills</p>

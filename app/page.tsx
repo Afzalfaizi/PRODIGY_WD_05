@@ -5,6 +5,8 @@ import Nav from "./components/Nav/Nav";
 import Hero from "./components/Hero/Hero";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills";
+import ContactUs from "./components/ContactUs/ContactUs";
+import MyServices from "./components/MyServices/MyService";
 
 
 export default function homePage() {
@@ -12,12 +14,14 @@ export default function homePage() {
   const ShowNavHandler = () => setShowNav(true);
   const closeNavHandler = () => setShowNav(false);
   return (
-    <div className=" overflow-hidden h-[2000px]">
+    <div >
       <NavMobile showNav={showNav} closeNav={closeNavHandler} />
       <Nav openNav={ShowNavHandler} />
       <Hero />
       <AboutMe />
+      <MyServices />
       <Skills />
+      <ContactUs />
     </div>
   )
 }
