@@ -3,7 +3,7 @@ import { useState } from "react"
 import NavMobile from "./components/NavMobile"
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
-import AboutMe from "./components/AboutMe";
+import AboutMe from "./components/AboutMe/AboutMe";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
 
