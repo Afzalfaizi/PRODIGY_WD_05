@@ -6,7 +6,7 @@ export default function Skills() {
       <div className=' grid w-[80%] mx-auto grid-cols-1 lg:grid-cols-7 gap-[2rem] items-center'>
         <div className=' col-span-3'>
           <p className=' heading__mini'>My Skills</p>
-          <h1 className=' heading__primary'> Let's Explor Popular <span className=' text-yellow-400'> Skills</span></h1>
+          <h1 className=' heading__primary'> Let&apos;s Explor Popular <span className=' text-yellow-400'> Skills</span></h1>
           <p className=' text-[15px] mb-[1.5rem] text-white opacity-75 mt-1'> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Culpa quam reprehenderit labore fugiat ab. Vero, corrupti tenetur!
             Atque vero, id quisquam odio necessitatibus, itaque nulla repellat sit officia veritatis quasi.</p>
