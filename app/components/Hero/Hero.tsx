@@ -9,12 +9,12 @@ export default function Hero() {
                         <h1 className="text-white mb-[1.3rem] "> WELCOME TO CODING WORLD </h1>
                         <div>
                             <h1 className="xl:text-[50px] lg:text-[40px] sm:text-[35px] text-[20px] font-semibold leading-[2.4rem] text-white">
-                                Hi,I'm <span className="text-yellow-400"> Faizi </span>
+                                Hi,I&apos;m <span className="text-yellow-400"> Faizi </span>
                             </h1>
                             <TypeWriterEffect />
                             <p className=' mt-[1.2rem] text-[15px] md:text[17px] text-white'>a skilled Full Stack Developer fluent in HTML5, Tailwind CSS, React, and Next.js.
                                 Passionate about creating user-friendly websites and always eager to learn.
-                                Let's collaborate and build something amazing!</p>
+                                Let&apos;s collaborate and build something amazing!</p>
                             <div className=' mt-[2rem] flex items-center space-x-6'>
                                 <button className=' relative flex h-[50px] w-40 items-center justify-center font-semibold overflow-hidden
                             bg-yellow-400 text-black shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full
