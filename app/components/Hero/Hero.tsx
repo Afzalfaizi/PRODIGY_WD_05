@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import TypeWriterEffect from '@/app/Helper/TypeWritterEffect/TypeWritterEffect'
 export default function Hero() {
     return (
@@ -31,12 +32,10 @@ export default function Hero() {
                       
                     </div>
                     <div className=' hidden md:block'>
-                            <img src="/images/hero.jpeg"
-                                alt="Hero"
-                                height={300}
-                                width={300}
-                                className=' object-contain rounded-full' />
-
+                        <Image src="/images/hero.jpeg"
+                            alt="Hero"
+                            height={300}
+                            width={300} />
                         </div>
                 </div>
             </div>

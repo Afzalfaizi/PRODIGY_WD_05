@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 interface Props {
     image: string;
@@ -15,12 +16,12 @@ const ProjectCard = ({ image, tech1, tech2, tech3, tech4, title, decription }: P
         <div className=' grid w-[80%] mx-auto pt-[5rem] grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
             <div className=' p-4 rounded-xl relative cursor-pointer hover:-rotate-6 transform transition-all duration-200
          bg-gray-800 shadow-md'>
-                <img
+                <Image
                     src={`${image}`}
                     alt={title}
                     width={500}
                     height={500}
-                    className='  object-contain rounded-xl mx-auto' />
+                />
             </div>
             <div>
                 <h1 className=' text-[25px] text-white'>{title}</h1>

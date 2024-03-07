@@ -11,7 +11,7 @@ import MyProjects from "./components/MyProjects/MyProjects";
 import MyPrices from "./components/MyPrices/MyPrices";
 
 
-export default function homePage() {
+export default function HomePage() {
   const [showNav, setShowNav] = useState(false);
   const ShowNavHandler = () => setShowNav(true);
   const closeNavHandler = () => setShowNav(false);
