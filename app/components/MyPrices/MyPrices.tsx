@@ -13,7 +13,7 @@ const MyPrices = () => {
              pt-[4rem] md:pt-[7rem]'>
                     <PriceCard plane="Basic" price="10$" save="25%" bg="bg-red-900" />
                     <PriceCard plane="Popular" price="20$" save="35%" bg="bg-green-900" />
-                    <PriceCard plane="Primum" price="35$" save="45%" bg="bg-blue-900" />
+                    <PriceCard plane="Premium" price="35$" save="45%" bg="bg-blue-900" />
                 </div>
 
             </div>
