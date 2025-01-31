@@ -6,9 +6,8 @@ const page = () => {
             <div className=' grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center w-[80%] mx-auto'>
                 <div>
                     <p className=' heading__mini'> Get in Touch </p>
-                    <h1 className=' heading__primary'>Lets make your <span className=' text-yellow-400'>Brand</span>brilliant </h1>
-                    <p className=' text-[15px] text-white mt-[1rem] opacity-75'> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Aliquam neque fugit voluptas </p>
+                    <h1 className=' heading__primary'>Lets make your <span className=' text-yellow-400'>Brand</span> brilliant </h1>
+                    <p className=' text-[15px] text-white mt-[1rem] opacity-75'> Whether you have a project idea, need a website, or just want to say hello, feel free to reach out. Let’s build something amazing together! </p>
                     <h1 className=' mt-[2rem] mb-[2rem] text-[30px] text-yellow-300 font-bold underline'> +92 303 441 1895</h1>
                 </div>
                 <div>

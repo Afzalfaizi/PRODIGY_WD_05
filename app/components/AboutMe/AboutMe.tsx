@@ -27,10 +27,10 @@ export default function AboutMe() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, type: 'spring', stiffness: 100 }}
                     >
-                        I am a professional web developer with over two years of experience in creating websites and applications.
-                        I have a strong background in web design and development.
-                        My passion is to create websites that are not only visually appealing, but also highly functional
-                        and user-friendly.
+                        I am a professional Full-Stack Developer with 2+ years of experience in building dynamic, user-friendly websites and applications.
+                        I specialize in web design, development, and AI-driven solutions, including intelligent AI agents and chatbots.
+                        With expertise in LangChain and LangGraph, I create powerful automation and interactive experiences.
+                        Passionate about innovation, I blend design, functionality, and AI to deliver exceptional digital solutions.
                     </motion.p>
                     <motion.p
                         className='text-white text-[15px] mt-[1.3rem]'
@@ -49,7 +49,7 @@ export default function AboutMe() {
                             transition={{ duration: 1, type: 'spring', stiffness: 100 }}
                         >
                             <CheckIcon className='w-[2rem] h-[2rem] text-yellow-400' />
-                            <p className='text-[18px] text-white'>Frontend Development</p>
+                            <p className='text-[18px] text-white'>Full Stack Web Development</p>
                         </motion.div>
                         <motion.div
                             className='flex items-center space-x-4'
@@ -58,8 +58,9 @@ export default function AboutMe() {
                             transition={{ duration: 1, type: 'spring', stiffness: 100 }}
                         >
                             <CheckIcon className='w-[2rem] h-[2rem] text-yellow-400' />
-                            <p className='text-[18px] text-white'>Backend Development</p>
+                            <p className='text-[18px] text-white'>AI Agents Developement</p>
                         </motion.div>
+                       
                         <motion.div
                             className='flex items-center space-x-4'
                             initial={{ opacity: 0, x: -100 }}
@@ -67,16 +68,7 @@ export default function AboutMe() {
                             transition={{ duration: 1, type: 'spring', stiffness: 100 }}
                         >
                             <CheckIcon className='w-[2rem] h-[2rem] text-yellow-400' />
-                            <p className='text-[18px] text-white'>Web Development</p>
-                        </motion.div>
-                        <motion.div
-                            className='flex items-center space-x-4'
-                            initial={{ opacity: 0, x: -100 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 1, type: 'spring', stiffness: 100 }}
-                        >
-                            <CheckIcon className='w-[2rem] h-[2rem] text-yellow-400' />
-                            <p className='text-[18px] text-white'>Full Stack Development</p>
+                            <p className='text-[18px] text-white'>Chatbots Development</p>
                         </motion.div>
                     </div>
                 </motion.div>
